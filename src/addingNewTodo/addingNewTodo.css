@@ -1,0 +1,27 @@
+.addingNewTodoContainer{
+    display: flex;
+}
+
+.addingNewTodoContainer input {
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #d6d6d6;
+}
+
+.addingNewTodoContainer button {
+    width: 150px;
+    background-color: rgb(59, 104, 14);
+    font-size: 18px;
+    font-weight: 600;
+    color:#d6d6d6;
+    border: 2px solid #4b7a1c ;
+    border-radius: 5px;
+}
+
+.addingNewTodoContainer button:hover{
+    cursor: pointer
+}

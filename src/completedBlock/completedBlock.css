@@ -1,0 +1,22 @@
+.completedBlockcss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.completedBlockcss h2{
+    color: rgb(59, 104, 14);
+    padding-right: 5px;
+}
+
+.deleteAll{
+    padding-top: 5px;
+    color:#6e6e6e;
+    
+}
+
+.deleteAll:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

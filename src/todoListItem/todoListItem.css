@@ -1,0 +1,31 @@
+.todoListItem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.todoListItem input{
+    -ms-transform: scale(2); 
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2); 
+    -o-transform: scale(2); 
+    transform: scale(2);
+}
+
+.todoListItem h3{
+    color: #d6d6d6;
+    font-size: 24px;
+    padding: 0 10px 0 30px;
+}
+
+.icon-delete{
+    color: #8d8a8a;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.icon-delete:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
